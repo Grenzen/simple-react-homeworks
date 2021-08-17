@@ -1,7 +1,42 @@
-.someClass {
-
+.container {
+    padding: 10px;
+    background-color: #31de8f2e;
+    width: 85%;
+    margin: 1rem auto;
 }
 
-.error {
+.commonInput {
+    width: 60%;
+    padding: 5px;
+}
+
+.normalInput {
+    outline: none;
+    border: 1px solid black;
+}
+
+.errorInput {
+    outline: none;
     border: 1px solid red;
+}
+
+.button {
+    padding: 6px;
+    background-color: #005fb3;
+    color: #f6f5f3;
+    border: none;
+    outline: none;
+}
+
+.gap {
+    margin: 0 5px;
+}
+
+
+.errorMessage {
+    display: flex;
+    justify-self: center;
+    font-size: 10px;
+    color: red;
+
 }

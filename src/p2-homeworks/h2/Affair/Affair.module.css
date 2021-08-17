@@ -1,0 +1,40 @@
+.affairItem {
+    margin: .5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name {
+    margin: 0;
+    color: #171719;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.priority,
+.name {
+    margin-left: 1rem;
+}
+
+.priority.low {
+    color: #2b9464;
+}
+
+.priority.middle {
+    color: #f5df65;
+}
+
+.priority.high {
+    color: #ff3800;
+}
+
+.button {
+    padding: 5px;
+    background-color: #ff1b03;
+    border-radius: 10px;
+    color: #f6f5f3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
