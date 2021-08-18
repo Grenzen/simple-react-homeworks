@@ -5,13 +5,8 @@ import s from './App.module.css'
 function App() {
     return (
         <div className={s.App}>
-            <div>react homeworks:</div>
-            {/*<HW1/>*/}
-            {/*<HW2/>*/}
-            {/*<HW3/>*/}
-            {/*<HW4/>*/}
+            <div className={s.AppTitleContainer}><h1 className={s.AppTitle}>React homeworks:</h1></div>
             <HW5/>
-
         </div>
     )
 }

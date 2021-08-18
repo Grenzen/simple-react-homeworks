@@ -1,8 +1,7 @@
 .container {
-    padding: 10px;
+    padding: 20px;
     background-color: #31de8f2e;
-    width: 85%;
-    margin: 1rem auto;
+    width: 100vw;
 }
 
 .commonInput {
@@ -29,7 +28,7 @@
 }
 
 .gap {
-    margin: 0 5px;
+    margin: 5px;
 }
 
 

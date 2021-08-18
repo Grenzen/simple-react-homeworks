@@ -1,0 +1,63 @@
+.burgerContainer {
+    position: fixed;
+    top: 3vw;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    background: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+}
+
+.burgerLine {
+    position: relative;
+    width: 2rem;
+    height: 0.2rem;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    transform-origin: 1px;
+}
+
+.burgerLineOpen {
+    left: 39vw;
+    background-color: #2b9464;
+}
+
+.burgerLineClose {
+    left: 3vw;
+    background-color: #f6f5f3;
+}
+
+/* transform burger lines */
+
+.burgerLineOpen:first-child {
+    transform: rotate(45deg);
+}
+
+.burgerLineOpen:nth-child(2) {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.burgerLineOpen:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.burgerLineClose:first-child {
+    transform: rotate(0);
+}
+
+.burgerLineClose:nth-child(2) {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.burgerLineClose:nth-child(3) {
+    transform: rotate(0);
+}

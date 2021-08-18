@@ -1,7 +1,7 @@
 .commonInput {
+    margin-top: 1rem;
     font-size: 16px;
     padding: 5px;
-    margin: 10px;
     display: block;
     width: 300px;
     border: none;
@@ -24,6 +24,8 @@
 }
 
 .error {
+    align-self: start;
+    margin: 0 2rem;
     font-size: 12px;
     color: #bb0000;
 }

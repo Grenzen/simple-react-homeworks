@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Affairs } from './Affairs/Affairs'
 import s from './HW2.module.css'
+import d from '../../p1-main/m1-ui/u1-app/App.module.css'
 
 // types
 export type AffairPriorityType = 'high' | 'middle' | 'low'
@@ -13,11 +14,11 @@ export type AffairType = {
 
 // constants
 const defaultAffairs: Array<AffairType> = [
-    {_id: 1, name: 'React', priority: 'high'},
-    {_id: 2, name: 'anime', priority: 'low'},
-    {_id: 3, name: 'games', priority: 'low'},
-    {_id: 4, name: 'work', priority: 'high'},
-    {_id: 5, name: 'html & css', priority: 'middle'},
+    { _id: 1, name: 'React', priority: 'high' },
+    { _id: 2, name: 'anime', priority: 'low' },
+    { _id: 3, name: 'games', priority: 'low' },
+    { _id: 4, name: 'work', priority: 'high' },
+    { _id: 5, name: 'html & css', priority: 'middle' },
 ]
 
 // pure helper functions
@@ -43,20 +44,16 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)) // need to fix any
 
     return (
-        <div className={ s.hwContainer }>
-            <hr/>
-            homeworks 2
-            <Affairs
-                data={ filteredAffairs }
-                setFilter={ setFilter }
-                deleteAffairCallback={ deleteAffairCallback }
-            />
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
-            <hr/>
-        </div>
+        <>
+            <h2 className={ d.hwTitle }>homework 2</h2>
+            <div className={ s.hwContainer }>
+                <Affairs
+                    data={ filteredAffairs }
+                    setFilter={ setFilter }
+                    deleteAffairCallback={ deleteAffairCallback }
+                />
+            </div>
+        </>
     )
 }
 

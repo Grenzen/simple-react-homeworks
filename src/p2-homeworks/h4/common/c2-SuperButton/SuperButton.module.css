@@ -10,7 +10,7 @@
 }
 
 .default {
-    background-color: transparent;
+    background-color: #f6f5f3;
     border: 1px solid #005fb3;
     color: #005fb3;
 }
@@ -36,7 +36,7 @@
 
 .red:hover {
     border: 1px solid #bb0000;
-    background-color: transparent;
+    background-color: #f6f5f3;
     color: #bb0000;
     transition: all 0.4s ease-in;
 }

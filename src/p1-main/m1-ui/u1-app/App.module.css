@@ -1,3 +1,24 @@
 .App {
 
 }
+
+.AppTitleContainer {
+    background-color: #3d3d3f;
+    display: flex;
+}
+
+.AppTitle {
+    margin: .5rem 0;
+    width: 100vw;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #3d3d3f;
+    color: #2b9464;
+    text-align: center;
+}
+
+.hwTitle {
+    margin: 0;
+    background-color: #2b9464;
+    color: #3d3d3f;
+    text-align: center;
+}
