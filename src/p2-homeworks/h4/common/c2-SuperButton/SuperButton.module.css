@@ -1,7 +1,42 @@
-.default {
+.commonButton {
+    box-sizing: content-box;
+    width: 72px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
 
+.default {
+    background-color: transparent;
+    border: 1px solid #005fb3;
+    color: #005fb3;
+}
+
+.default:hover {
+    background-color: #005fb3;
+    color: #f6f5f3;
+    transition: all 0.4s ease-in;
+}
+
+.default:disabled {
+    border: 1px solid #3D3D3F99;
+    color: #3D3D3F99;
+    pointer-events: none;
 }
 
 .red {
-    background: red;
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: #bb0000;
+    color: #f6f5f3;
+}
+
+.red:hover {
+    border: 1px solid #bb0000;
+    background-color: transparent;
+    color: #bb0000;
+    transition: all 0.4s ease-in;
 }

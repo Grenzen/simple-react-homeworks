@@ -1,5 +1,5 @@
 import React from 'react'
-import {render} from '@testing-library/react'
+import { render } from '@testing-library/react'
 import { Message } from '../Message'
 
 test('find text "test message name"', () => {
@@ -15,7 +15,7 @@ test('find text "test message name"', () => {
     expect(linkElement).toBeInTheDocument()
 })
 test('find text "test message"', () => {
-    const {getByText} = render((
+    const { getByText } = render((
         <Message
             avatar=""
             name=""
@@ -27,7 +27,7 @@ test('find text "test message"', () => {
     expect(linkElement).toBeInTheDocument()
 })
 test('find text "test message time"', () => {
-    const {getByText} = render((
+    const { getByText } = render((
         <Message
             avatar=""
             name=""
