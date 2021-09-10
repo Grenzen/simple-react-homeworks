@@ -26,7 +26,6 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
     switch (filter) {
         case 'all':
             return affairs
-            break
         default:
             return affairs.filter(affair => affair.priority === filter)
 

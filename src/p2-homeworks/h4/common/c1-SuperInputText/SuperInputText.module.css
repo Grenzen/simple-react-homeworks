@@ -24,8 +24,6 @@
 }
 
 .error {
-    align-self: start;
-    margin: 0 2rem;
     font-size: 12px;
     color: #bb0000;
 }
