@@ -1,6 +1,6 @@
 .commonButton {
     box-sizing: content-box;
-    width: 72px;
+    min-width: 72px;
     border: none;
     padding: 5px;
     border-radius: 5px;
@@ -11,12 +11,12 @@
 
 .default {
     background-color: #f6f5f3;
-    border: 1px solid #005fb3;
-    color: #005fb3;
+    border: 1px solid #2b9464;
+    color: #2b9464;
 }
 
 .default:hover {
-    background-color: #005fb3;
+    background-color: #2b9464;
     color: #f6f5f3;
     transition: all 0.4s ease-in;
 }

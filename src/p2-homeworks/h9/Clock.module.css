@@ -1,13 +1,12 @@
-.hw8Container {
+.clockContainer {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #7dce94;
 }
 
-.userContainer {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+.stringDate {
+    height: 1.5rem;
 }
