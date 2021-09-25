@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.5df007a5.chunk.css",
+    "main.css": "/simple-react-homeworks/static/css/main.8e6cadab.chunk.css",
     "main.js": "/simple-react-homeworks/static/js/main.3c5340ed.chunk.js",
     "main.js.map": "/simple-react-homeworks/static/js/main.3c5340ed.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.5a0ed468.js",
@@ -10,7 +10,7 @@
     "static/js/2.04d12cc7.chunk.js.map": "/simple-react-homeworks/static/js/2.04d12cc7.chunk.js.map",
     "index.html": "/simple-react-homeworks/index.html",
     "static/css/2.786ae0dd.chunk.css.map": "/simple-react-homeworks/static/css/2.786ae0dd.chunk.css.map",
-    "static/css/main.5df007a5.chunk.css.map": "/simple-react-homeworks/static/css/main.5df007a5.chunk.css.map",
+    "static/css/main.8e6cadab.chunk.css.map": "/simple-react-homeworks/static/css/main.8e6cadab.chunk.css.map",
     "static/js/2.04d12cc7.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.04d12cc7.chunk.js.LICENSE.txt",
     "static/media/delete.7fb3edf5.svg": "/simple-react-homeworks/static/media/delete.7fb3edf5.svg",
     "static/media/edit.9ec98e0d.svg": "/simple-react-homeworks/static/media/edit.9ec98e0d.svg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.5a0ed468.js",
     "static/css/2.786ae0dd.chunk.css",
     "static/js/2.04d12cc7.chunk.js",
-    "static/css/main.5df007a5.chunk.css",
+    "static/css/main.8e6cadab.chunk.css",
     "static/js/main.3c5340ed.chunk.js"
   ]
 }
