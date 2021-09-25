@@ -1,0 +1,8 @@
+.hw10Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #7dce94;
+}
